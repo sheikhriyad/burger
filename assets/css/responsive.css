@@ -1,0 +1,260 @@
+@media screen and (min-width: 1200px) {
+    #intro .intro-right img {
+        width: 100%;
+        height: 700px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    p {
+        font-size: 20px
+    }
+    .btn {
+        font-size: 24px
+    }
+    #nav-menu-container {
+        margin-left: 250px;
+    }
+    .nav-menu li a {
+        font-size: 21px
+    }
+    #intro {
+        height: 585px;
+        background-position: center bottom;
+    }
+    #intro .intro-bg {
+        height: 545px
+    }
+    #intro .intro-left h5 {
+        font-size: 36px
+    }
+    #intro .intro-left h2 {
+        font-size: 60px
+    }
+    #intro .intro-left .intro-btn {
+        margin-right: 20px
+    }
+    #about .about-text h4 {
+        font-size: 36px
+    }
+    #about .about-text h3 {
+        font-size: 44px
+    }
+    #foods .foods-box {
+        padding: 30px;
+        position: relative;
+        overflow: hidden;
+    }
+    #foods .foods-box .foods-text {
+        padding: 0 20px;
+    }
+    #foods .foods-2::before {
+        background-size: contain;
+    }
+    #foods .foods-3::before {
+        width: 90%;
+    }
+    #products .beverazes-preview,
+    #products .burger-preview,
+    #products .snacks-preview {
+        margin-top: 80px
+    }
+    #footer .footer-nav li a {
+        font-size: 18px
+    }
+    #footer .copyright {
+        font-size: 18px
+    }
+}
+@media screen and (min-width: 992px) {
+    #footer .footer-nav {
+        padding: 0;
+        float: left
+    }
+}
+@media screen and (max-width: 991px) {
+    h2,
+    h5 {
+        margin-bottom: 10px
+    }
+    p {
+        font-size: 18px;
+        margin-bottom: 15px
+    }
+    .btn {
+        font-size: 18px;
+        padding: 5px 15px
+    }
+    .section-header h3 {
+        font-size: 40px
+    }
+    #nav-menu-container {
+        display: none
+    }
+    #mobile-nav-toggle {
+        display: block
+    }
+    #intro {
+        height: 450px
+    }
+    #intro .intro-bg {
+        height: 420px
+    }
+    #intro .intro-left h2 {
+        font-size: 45px
+    }
+    #intro .intro-left p {
+        font-size: 18px
+    }
+    #about .about-text h4 {
+        font-size: 28px
+    }
+    #about .about-text h3 {
+        font-size: 34px
+    }
+    #foods .foods-box {
+        padding: 35px
+    }
+    #foods .foods-3::before,
+    #foods .foods-1::before {
+        background-size: contain;
+    }
+    #foods .foods-box h4 {
+        font-size: 28px
+    }
+    #foods .foods-box p {
+        font-size: 18px
+    }
+    #foods .foods-box .foods-btn {
+        font-size: 18px
+    }
+    #foods .foods-box .foods-text {
+        padding: 0;
+    }
+    #products .products-header span {
+        font-size: 20px
+    }
+    #products .products-details p {
+        font-size: 18px
+    }
+    #contact .contact-box h5 {
+        font-size: 30px
+    }
+    #contact .contact-box h6 {
+        font-size: 20px
+    }
+    #footer {
+        background: #000;
+        padding-top: 30px;
+        padding-bottom: 20px
+    }
+    #footer .footer-main p {
+        padding: 0 40px;
+        font-size: 20px
+    }
+    #footer .footer-nav {
+        text-align: center
+    }
+    #footer .footer-nav li {
+        margin-right: 18px
+    }
+    #footer .copyright {
+        font-size: 18px;
+        text-align: center;
+        display: block;
+        float: none
+    }
+}
+@media screen and (max-width: 767px) {
+    #header {
+        padding-top: 10px
+    }
+    #intro {
+        height: 400px
+    }
+    #intro .intro-bg {
+        height: 425px
+    }
+    #intro .intro-left {
+        margin-top: 70px;
+        position: relative
+    }
+    #intro .intro-right {
+        display: none
+    }
+    #about {
+        background: #ddd
+    }
+    #about .about-text {
+        margin-top: 20px
+    }
+    #about .about-text p {
+        color: #000
+    }
+    #foods .foods-3::before {
+        width: 94%
+    }
+    #products #burger-item,
+    #products #snacks-item {
+        padding-bottom: 15px;
+    }
+    #products .products-details p {
+        padding-right: 40px;
+    }
+    .burger-img {
+        float: right;
+        margin-right: -20px
+    }
+    #products #burger-preview {
+        background: url(../img/burger/burger-preview-1.png) no-repeat center /contain;
+        height: 430px;
+        max-width: 540px;
+    }
+    #products #snacks-preview {
+        background: url(../img/burger/snacks-preview-1.png) no-repeat center /contain;
+        height: 430px;
+        max-width: 540px;
+    }
+    #products #beverazes-preview {
+        background: url(../img/burger/beverazes-preview-1.png) no-repeat center /contain;
+        height: 430px;
+        max-width: 540px;
+    }
+}
+@media screen and (max-width: 575px) {
+    #products .products-details p {
+        width: 95%;
+        padding-right: 0;
+    }
+    #products #burger-item,
+    #products #snacks-item,
+    #products #beverazes-item {
+        padding-right: 25px;
+    }
+    #products .beverazes-preview,
+    #products .burger-preview,
+    #products .snacks-preview {
+        text-align: center
+    }
+}
+@media screen and (max-width: 360px) {
+    #intro .intro-left h5 {
+        font-size: 30px;
+    }
+    #intro .intro-left h2 {
+        font-size: 40px;
+    }
+    #intro .intro-left p {
+        font-size: 16px;
+    }
+    #products .products-header span {
+        font-size: 18px;
+    }
+    .footer-main img {
+        width: 150px;
+        height: auto;
+    }
+    #footer .footer-main p {
+        padding: 10px 0px;
+        font-size: 18px;
+    }
+}
